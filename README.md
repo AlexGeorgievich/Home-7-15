@@ -43,8 +43,12 @@ https://github.com/AlexGeorgievich/Home-7-15.git
 
 ### порядок запуска тестов:
  smoke-test             ui   -> gradle clean smoke 
+ 
 локальный запуск UI  -> gradle clean ui -Dtype=local
+
 удаленный запуск UI  -> gradle clean ui -Dtype=remote
+
 запуск тест API        -> gradle clean api
+
 все ключевые параметры вынесены в директорию ->  properties/config/ *.properties
 
