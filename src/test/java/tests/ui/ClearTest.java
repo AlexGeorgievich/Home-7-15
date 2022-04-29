@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class CleareTest extends BaseTest {
+public class ClearTest extends BaseTest {
 
     @Test
     @Owner("QA.GURU")
